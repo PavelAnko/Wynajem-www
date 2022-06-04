@@ -21,9 +21,9 @@ const Navbar = () => {
               <div class="menu_text">
                 Gallary
               </div>
-              <div class="menu_text">
+              <a href='/subscriptions' class="menu_text">
                 Subcriptions
-              </div>
+              </a>
               <div class="menu_text">
                 Templates
               </div>

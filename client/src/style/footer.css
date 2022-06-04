@@ -7,9 +7,10 @@
 }
 
 .footer_container {
-  margin-top: 100px;
+  margin-top: 30px;
   font-weight: 700;
   justify-content: center;
+  align-items: center;
   display: flex;
   height: 70px;
   width: 100%;
@@ -22,8 +23,26 @@
 }
 
 .footer_text-container {
-  margin-left: 270px;
-  margin-right: 15px;
+  font-size: 14px;
+  font-family: 'HelveticaNeueW01-45Ligh', 'HelveticaNeueW02-45Ligh', 'HelveticaNeueW10-45Ligh', sans-serif;
+  width: 100%;
+  height: 300px;
+}
+
+.add_margin{
+  margin-left: 319px;
+}
+.add_margin2{
+  margin-left: 5px;
+}
+.add_margin3{
+  margin-right: 20px;
+}
+
+.footer_down {
+  cursor: pointer;
+  width: 150px;
+  margin-top: 12px;
 }
 
 .post_border {

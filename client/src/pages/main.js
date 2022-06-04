@@ -9,9 +9,9 @@ const Main = () => {
       <div class="main_container">
         {/* <---HELP---> */}
         <div class="main_information-container">
-          <div class="main_text-container">Давайте разом підтримаємо народ України</div>
+          <div class="main_text-container">Lorem Ipsum has been the industry's standard dummy</div>
           <div class="main_help-container">
-            <a  href='/auth' class="main_text-help-container">Підтримати</a>
+            <a  href='/auth' class="main_text-help-container">Lorem Ipsum</a>
           </div>
         </div>
         {/* <---BLOG---> */}

@@ -40,6 +40,8 @@
 }
 
 .menu_text {
+  text-decoration: none;
+  cursor: pointer;
   color: black;
 }
 
