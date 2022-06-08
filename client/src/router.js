@@ -3,7 +3,8 @@ import Admin from "./pages/admin";
 import Auth from "./pages/auth";
 import Main from "./pages/main";
 import Subscriptions from "./pages/subscriptions";
-import { ADMIN_ROUTE, LOGIN_ROUTE, MAIN_ROUTE, REGISTRATION_ROUTE, SUBSCRIPTIONS_ROUTE } from "./utils/consts";
+import Templates from "./pages/templates ";
+import { ADMIN_ROUTE, LOGIN_ROUTE, MAIN_ROUTE, REGISTRATION_ROUTE, SUBSCRIPTIONS_ROUTE, TEMPLATES_ROUTE } from "./utils/consts";
 
 export const authRoutes = [
   {
@@ -28,6 +29,10 @@ export const publicRoutes = [
   {
     path: SUBSCRIPTIONS_ROUTE,
     Component: Subscriptions
+  },
+  {
+    path: TEMPLATES_ROUTE,
+    Component: Templates
   }
 ]
 

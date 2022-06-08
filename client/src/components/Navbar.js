@@ -24,9 +24,9 @@ const Navbar = () => {
               <a href='/subscriptions' class="menu_text">
                 Subcriptions
               </a>
-              <div class="menu_text">
+              <a href='/templates' class="menu_text">
                 Templates
-              </div>
+              </a>
               <div class="menu_text">
                 Support
               </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
               <LanguageIcon style={{color: 'grey'}} />
             </div>
             <div class="navbar_button">
-              <Button style={{marginBottom: 20, borderRadius: 50}} variant="contained">Log IN</Button>
+              <Button style={{marginBottom: 20, borderRadius: 50}} variant="contained"><a style={{textDecoration: 'none', color: 'white'}}href='/auth'>Log in</a></Button>
             </div>
           </div>
         </div>

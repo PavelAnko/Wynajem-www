@@ -70,8 +70,8 @@
 }
 
 .main_border-container{
-  width: 1780px;
+  width: 100%;
   background-color: grey;
   height: 1px;
-  margin-left: 60px;
+  opacity: .2;
 }
