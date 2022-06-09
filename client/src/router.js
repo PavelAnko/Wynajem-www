@@ -4,7 +4,8 @@ import Auth from "./pages/auth";
 import Main from "./pages/main";
 import Subscriptions from "./pages/subscriptions";
 import Templates from "./pages/templates ";
-import { ADMIN_ROUTE, LOGIN_ROUTE, MAIN_ROUTE, REGISTRATION_ROUTE, SUBSCRIPTIONS_ROUTE, TEMPLATES_ROUTE } from "./utils/consts";
+import Bages from "./salesPages/Bages";
+import { ADMIN_ROUTE, BAGES_ROUTE, LOGIN_ROUTE, MAIN_ROUTE, REGISTRATION_ROUTE, SUBSCRIPTIONS_ROUTE, TEMPLATES_ROUTE } from "./utils/consts";
 
 export const authRoutes = [
   {
@@ -33,6 +34,10 @@ export const publicRoutes = [
   {
     path: TEMPLATES_ROUTE,
     Component: Templates
+  },
+  {
+    path: BAGES_ROUTE,
+    Component: Bages
   }
 ]
 
