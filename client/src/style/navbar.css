@@ -4,20 +4,24 @@
 }
 
 .navbar_main-container{
-  height: 78px;
+  height: 85px;
   width: 100%;
 }
 
 .navbar_container {
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 10;
 }
 
 /* <---left_container--> */
 
 
 .left_container {
-  
+  background-color: #fff;
   display: flex;
 }
 

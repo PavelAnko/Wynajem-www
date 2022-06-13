@@ -1,6 +1,6 @@
 .bages{
     width: 100%;
-    height: 100em;
+    height: 100%;
 }
 
 .href-title{
@@ -10,9 +10,11 @@
 .fixed-title{
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: rgb(19, 19, 19);
     position: fixed;  
     display: flex;  
+    background-color: rgba(19, 19, 19, 0.8);
+    z-index: 10;
 }
 
 /* TITLE 1 */
@@ -56,20 +58,11 @@
 }
 
 .s-a-f-c{
-    width: 286px;
+    width: 300px;
     height: 80px;
     margin-top: 10px;
     display: flex;
-    margin-top: 10px;
 
-}
-
-.search{
-    width: 161px;
-    height: 47px;
-    background-color: darkslategrey;
-    margin-left: 10px;
-    margin-top: 26.5px;
 }
 
 .log-in{
@@ -95,7 +88,8 @@
     font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
     cursor: pointer;
     margin: auto;
-    transition: all .4s;  
+    transition: all .4s; 
+    padding-right: 13px; 
 }
 
 .shop:hover{
@@ -110,6 +104,7 @@
     cursor: pointer;
     margin: auto;
     transition: all .4s;
+    padding-right: 13px; 
 }
 
 .forum:hover{
@@ -124,6 +119,7 @@
     cursor: pointer;
     margin: auto;
     transition: all .4s;
+    padding-right: 30px; 
 }
 
 .contact:hover{
@@ -138,8 +134,243 @@
     cursor: pointer;
     margin: auto;
     transition: all .4s;
+    padding-right: 13px; 
 }
 
 .about:hover{
     color: #fff;
+}
+
+/* SEARCH */
+
+.search{
+    width: 161px;
+    height: 47px;
+    margin-left: 10px;
+    margin-top: 26.5px;
+    display: flex;
+    background-color: lightgrey;
+}
+
+/* FRONT IMG */
+
+.front-img{
+    height: 906px;
+    width: 100%;
+    background: url(../img/bages/84770f_93b300330b3742f2b1948ef292a91f27_mv2_d_1920_1279_s_2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.img-info{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-title{
+    padding-top: 405px;
+    font-size: 90px;
+    color: #fff;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    letter-spacing: -3px;
+    font-weight: 900;
+}
+
+.shop-now-1{
+    width: 136px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s; 
+}
+
+.shop-now-1:hover{
+    color: rgb(162, 156, 156);
+}
+
+/* FIXED LINK */
+
+.fixed-link{
+    position: absolute;
+    right: 0;
+    top: 425px;
+    width: 110px;
+    height: 190px;
+    position: fixed;
+    background-color: rgb(19, 19, 19);
+    background-color: rgba(19, 19, 19, 0.8);
+    z-index: 10;
+}
+
+.link-icon{
+    width: 30px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+.link-facebook{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: url(../img/bages/facebook.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.link-youtube{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: url(../img/bages/youtube.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.link-instagram{
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: url(../img/bages/instagram.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* SECOND PAGE*/
+
+.second-page{
+    width: 100%;
+    height: 806px;
+    display: flex;
+}
+
+.page-2-title{
+    width: 50%;
+    height: 806px;
+    background-color: black;
+    text-align: center;
+}
+
+.bag{
+    width: 50%;
+    height: 806px;
+    background: url(../img/bages/bag.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.new-arrivals{
+    margin-top: 340px;
+    font-size: 63px;
+    font-weight: 800;
+    font-family: 'dinneuzeitgroteskltw01-_812426', sans-serif;
+    color: #fff;
+}
+
+.shop-now-2{
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s; 
+}
+
+.shop-now-2:hover{
+    color: rgb(162, 156, 156);
+}
+
+/* B-D-T */
+
+.b-d-t{
+    width: 100%;
+    height: 700x;
+    display: flex;
+    background-color: black;
+}
+
+.backpacks{
+    width: 33.3%;
+    height: 700px;
+    background: url(../img/bages/backpacks.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.backpacks:hover{
+    background-size: 110%;
+    background-position: center;
+    opacity: 0.45;
+}
+
+.duffle-bags{
+    width: 33.34%;
+    height: 700px;
+    background: url(../img/bages/duffle-bags.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.duffle-bags:hover{
+    background-size: 110%;
+    background-position: center; 
+    opacity: 0.45;
+}
+
+.travel-packs{
+    width: 33.33%;
+    height: 700px;
+    background: url(../img/bages/travel-packs.webp) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    background-size: 100%;
+    background-position: center;
+    transition: 1s;
+}
+
+.travel-packs:hover{
+    background-size: 110%;
+    background-position: center; 
+    opacity: 0.45;
+}
+
+
+.href-img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 350px;
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+}
+
+.href-img:hover{
+    opacity: 1;
+}
+
+.href{
+    text-decoration: none;
+}
+
+/* 3 BAGES */
+
+.bags-3{
+    width: 100%;
+    height: 905px;
+    background-color: black;
+
 }
